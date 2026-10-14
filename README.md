@@ -91,3 +91,5 @@ python src/test_llm.py              # provider switch (DeepSeek / Anthropic)
 
 - Real: transcript reading with an LLM (DeepSeek or Claude), structured extraction, follow-up email draft, approval step, optional finance tools and drafts.
 - Simulated: all meetings and finance data are invented. Sending emails is not implemented on purpose.
+
+**Live example:** [Notion board with the agent's output]([PASTE_PUBLIC_LINK_HERE](https://app.notion.com/p/6084e5fea946457bb2018724cf52fc1b?v=13131d54207a47f5a3ce6b9c5d9edff3&source=copy_link)) (all data is invented)
