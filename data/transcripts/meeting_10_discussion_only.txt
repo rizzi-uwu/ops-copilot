@@ -1,0 +1,16 @@
+Meeting: Strategy Discussion - Supplier Options
+Date: 2026-10-14 (Wednesday)
+Participants: Wanda (COO), Ibrahim (procurement), Sofia (analyst), Carl (finance)
+
+Wanda: This is a discussion only, no decisions today. We have to figure out what to do about our packaging supplier.
+Ibrahim: If we went with vendor B, I'd have to renegotiate the whole contract, and they'd want volume commitments.
+Carl: Vendor B is cheaper per unit. We could maybe do a pilot in Q1 if the numbers hold up.
+Sofia: The numbers depend on the volume forecasts, which are shaky right now.
+Wanda: We should probably think about hiring someone for supplier management at some point.
+Carl: At some point, yes. Not this quarter.
+Ibrahim: Another thing. Our main supplier contract expires at the end of the year and nobody has started the renewal. If we do nothing, we lose the current price.
+Wanda: That's a good point. Okay.
+Sofia: To make this less abstract, I'll write up the options and send them round by Friday.
+Wanda: That would help a lot, thanks Sofia.
+Carl: And once we have that, we can pick a direction.
+Wanda: Right. Let's not decide anything today. Let's pick this up next week.

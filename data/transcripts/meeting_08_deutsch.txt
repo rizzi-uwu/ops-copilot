@@ -1,0 +1,18 @@
+Meeting: Wöchentliches Team-Meeting - Webshop
+Date: 2026-10-14 (Mittwoch)
+Participants: Katja (Teamleitung), Stefan (Vertrieb), Dilara (Content), Max (Entwicklung)
+
+Katja: Guten Morgen zusammen. Wir haben heute viel auf der Liste, also fangen wir direkt an. Stefan, was gibt es beim Kunden?
+Stefan: Der Kunde wartet noch auf unser Angebot. Ich schicke es bis Freitag raus.
+Katja: Gut. Dilara, die Produktbeschreibungen?
+Dilara: Die sind etwa zur Hälfte fertig. Ich aktualisiere alle Beschreibungen bis zum 21. Oktober.
+Katja: Super. Max, wie sieht es mit dem Zahlungsmodul aus?
+Max: Entwickelt ist es, getestet noch nicht. Ich übernehme das Testen, sagen wir nächste Woche Mittwoch.
+Katja: Okay. Dann zum Launch. Der 26. Oktober ist nicht zu halten, das sehen wir alle. Wir verschieben den Launch auf den 2. November.
+Stefan: Einverstanden.
+Dilara: Ja, das ist realistischer.
+Max: Noch ein Punkt. Die Datenschutzerklärung auf der Seite ist komplett veraltet. Da hat sich seit Jahren nichts getan, und im Moment kümmert sich niemand darum.
+Katja: Stimmt, das ist ein Problem, vor allem vor dem Launch. Naja, wir kommen später darauf zurück.
+Katja: Ich schicke übrigens bis morgen das Protokoll rum.
+Dilara: Danke.
+Katja: Dann sind wir durch. Schönen Tag noch.

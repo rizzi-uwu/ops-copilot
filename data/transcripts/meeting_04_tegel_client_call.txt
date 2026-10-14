@@ -1,0 +1,17 @@
+Meeting: Client Call - Tegel Robotics AG
+Date: 2026-10-08 (Thursday)
+Participants: Lena (account manager), Marco (finance), Tobias (Tegel, operations lead), Sabine (Tegel, procurement)
+
+Lena: Thanks for joining. Let's talk about the support plan renewal and the proposal.
+Tobias: We would like a revised proposal with the extended support hours we discussed.
+Lena: Of course. I'll send the revised proposal by October 15th.
+Tobias: Great. We would also like to see the new dashboard in a demo before we sign.
+Lena: I'll schedule the demo for October 22nd and send the invite today.
+Sabine: On billing, we'd prefer to move to annual billing instead of quarterly.
+Lena: That works for us. Decision: Tegel moves to annual billing from next year.
+Sabine: One thing about payments. We transferred 8,400 euros on September 30th for the support plan. Your system still shows it as open, we got a reminder.
+Marco: Thanks for telling us. It's probably sitting unallocated on our side. I'll look into it and match it to the right invoice.
+Sabine: Please do. Also, a heads up: I'm on leave from next week for three weeks.
+Lena: Understood. Who should we contact in the meantime?
+Sabine: I haven't decided yet.
+Lena: Okay, we'll follow up on that. Thank you both.

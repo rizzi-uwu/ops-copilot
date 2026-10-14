@@ -1,0 +1,22 @@
+Meeting: Project Phoenix - Friday Sync
+Date: 2026-10-09 (Friday)
+Participants: Mira (project manager), Tom (engineer), Yusuf (engineer), Petra (technical writer)
+
+Mira: Okay, can everyone hear me? Tom, you're on mute. There. Right. Let's go through Phoenix quickly, I have a hard stop at half past.
+Tom: Sorry, yes. So staging. The build is green, but I haven't deployed it. I can deploy the staging build by Wednesday.
+Mira: Can you do Tuesday? The demo prep for the client needs it, they want to click through on Tuesday afternoon.
+Tom: Hmm. Tuesday... yes, Tuesday works. I'll push it Tuesday morning.
+Yusuf: While we're at it, the reporting database. I still think we should stay on the old Mongo setup, migrating is a lot of work and --
+Petra: No, sorry, Yusuf, we went through this already. The Mongo queries time out on the big reports.
+Mira: Right. Let's settle it: we use PostgreSQL for the reporting database, not Mongo.
+Yusuf: Fine. Then someone has to write the migration guide. I'll do that.
+Mira: Great, thanks Yusuf.
+Petra: Uh, wait. Yusuf, you're already swamped this month. I'll take the migration guide, I know the doc tooling anyway. Done by the 30th.
+Yusuf: Oh, that would be great. Yes, please, Petra takes the guide.
+Mira: OK, Petra has the migration guide, by the 30th. Last thing from me: I'll send the agenda to the client by Monday.
+Tom: Quick thing. The nightly backup job failed twice this week. Tuesday and Thursday night.
+Yusuf: Yeah, I saw the alert too. No idea why.
+Petra: Somebody should really look at that.
+Mira: Agreed. Hmm. Anyway. By the way, the logo on slide four is slightly off-center, but whatever, I can live with it.
+Tom: Ha. OK.
+Mira: Right, I've got to run. Thanks everyone.

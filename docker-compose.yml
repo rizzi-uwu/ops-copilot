@@ -1,0 +1,89 @@
+# Ops Copilot - one image, several one-off services.
+#
+#   docker compose up                       -> runs the offline checks (no API key needed)
+#   docker compose run --rm agent           -> run the agent on one transcript
+#   docker compose run --rm evaluate        -> accuracy check on the 5 sample meetings
+#
+# Keys are read from a .env file next to this file (copy .env.example to .env).
+# The Makefile wraps all of this: run `make help`.
+
+x-common: &common
+  build: .
+  image: ops-copilot:latest
+  # Run as your own user so files written to ./outbox belong to you (the Makefile sets these).
+  user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
+  environment: &env
+    DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+    ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    OPS_COPILOT_PROVIDER: ${OPS_COPILOT_PROVIDER:-}
+    OPS_COPILOT_MODEL: ${OPS_COPILOT_MODEL:-}
+    NOTION_TOKEN: ${NOTION_TOKEN:-}
+    NOTION_DATABASE_ID: ${NOTION_DATABASE_ID:-}
+  volumes:
+    - ./src:/app/src
+    - ./data:/app/data
+    - ./outbox:/app/outbox
+
+services:
+  # Default service: offline checks, no API key needed
+  tests:
+    <<: *common
+    command: >
+      sh -c "python src/test_finance.py &&
+             python src/test_agent_plumbing.py &&
+             python src/test_llm.py"
+
+  # Run the agent on one transcript.
+  # TRANSCRIPT and LETTER_LANG can be set in .env or on the command line.
+  # AGENT_FLAGS=--finance also turns on the optional finance check.
+  agent:
+    <<: *common
+    profiles: ["tools"]
+    command: >
+      python src/agent.py
+      ${TRANSCRIPT:-data/transcripts/meeting_05_month_end_finance.txt}
+      --lang ${LETTER_LANG:-en} ${AGENT_FLAGS:-}
+
+  # Run the agent on every sample transcript
+  agent-all:
+    <<: *common
+    profiles: ["tools"]
+    command: sh src/run_all.sh ${LETTER_LANG:-en} ${AGENT_FLAGS:-}
+
+  # Accuracy check on the sample meetings
+  evaluate:
+    <<: *common
+    profiles: ["tools"]
+    command: python src/evaluate.py
+
+  # List drafts waiting for approval
+  approve-list:
+    <<: *common
+    profiles: ["tools"]
+    command: python src/approve.py
+
+  # Approve or reject one draft: SOURCE=<outbox name> N=<item number> ACTION=approve|reject
+  approve:
+    <<: *common
+    profiles: ["tools"]
+    command: python src/approve.py ${ACTION:-approve} ${SOURCE:-} ${N:-}
+
+  # Push an outbox file to the Notion board: OUTBOX_FILE=outbox/<name>.json
+  push:
+    <<: *common
+    profiles: ["tools"]
+    command: python src/notion_push.py ${OUTBOX_FILE:-}
+
+  # Regenerate the fake invoice, payment and expected-result files
+  data:
+    <<: *common
+    profiles: ["tools"]
+    command: python src/make_data.py
+
+  # Open a shell in the container
+  shell:
+    <<: *common
+    profiles: ["tools"]
+    command: bash
+    stdin_open: true
+    tty: true

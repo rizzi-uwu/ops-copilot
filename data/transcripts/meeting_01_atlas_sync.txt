@@ -1,0 +1,18 @@
+Meeting: Weekly Project Sync - Atlas Rollout
+Date: 2026-10-05 (Monday)
+Participants: Anna (project manager), Ben (dev lead), Chloe (operations), David (finance)
+
+Anna: Okay, let's get started. Main topic today is the Atlas rollout. Ben, where are we on the API integration?
+Ben: Almost there. I need until Friday the 16th to finish it, there's one endpoint left that depends on the client's sandbox.
+Anna: Fine, Ben owns the API integration, due October 16th.
+Chloe: The client asked for an updated rollout schedule. I'll send it to them by Wednesday.
+Anna: Great, thanks Chloe. Now, the big question: do we launch at all five sites at once or start smaller?
+Ben: Five at once is too risky with the current test coverage.
+Chloe: Agreed. Two pilot sites first, then the rest.
+Anna: Okay, decision made: we launch the pilot with two sites first, not five.
+Anna: I also need to book the stakeholder review. I'll set that for October 20th and send invites today.
+Ben: One more thing. The test environment keeps going down at night. It's been flaky for two weeks.
+Chloe: Yeah, it caused two failed demo prep runs. Nobody really looks after it though.
+Anna: Right, that's a problem. Let's keep it in mind.
+David: Finance quick note. Nordlicht Logistics still hasn't paid their invoices and some are now quite old. I'll chase them this week and check what's actually outstanding.
+Anna: Thanks David. Anything else? No? Then let's wrap up.

@@ -1,0 +1,16 @@
+Meeting: Sprint Planning - Mobile App
+Date: 2026-10-07 (Wednesday)
+Participants: Iris (product owner), Jonas (engineer), Kai (designer), Lea (QA)
+
+Iris: Let's plan the next sprint. Top priority is the login bug that blocks some Android users. Jonas?
+Jonas: I can fix it. I'll have it done by October 14th.
+Iris: Good. Jonas also needs to write the release notes for version 2.3, please by the 15th.
+Jonas: Yes, no problem.
+Iris: Kai, what's the status of the onboarding redesign?
+Kai: I'm halfway through. I'll update the onboarding flow in Figma and hand it over by October 21st.
+Lea: What about dark mode? Marketing keeps asking.
+Iris: We don't have the capacity. Decision: we postpone dark mode to the next sprint.
+Lea: Fine by me. One concern though. App store review for the new version can take days, and nobody has been assigned to submit and follow up on it.
+Iris: You're right, that's a gap. We need to sort that out.
+Kai: Also the new icons are still unclear on small screens, but that's minor.
+Iris: Okay, that's it for today.

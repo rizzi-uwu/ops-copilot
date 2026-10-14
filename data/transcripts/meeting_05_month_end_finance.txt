@@ -1,0 +1,16 @@
+Meeting: Month-End Finance Sync
+Date: 2026-10-12 (Monday)
+Participants: Nora (finance lead), Omar (accounts receivable), Paul (reporting), Quinn (operations)
+
+Nora: Let's go through the month-end checklist. First, overdue accounts. Havel Print Works is badly overdue, several invoices, nothing paid since summer.
+Omar: Yes, I counted three open invoices. We've sent two normal reminders already.
+Nora: Then it's time for a formal dunning letter. I'll prepare the dunning letter for Havel Print Works by October 16th.
+Quinn: Should we stop service for them?
+Nora: Decision: we suspend the Havel Print Works account if they haven't paid by October 30th.
+Omar: Another one. Alster Medical Supplies was invoiced with the wrong VAT rate on the training workshop. They flagged it. I'll raise the credit note request for that invoice by October 14th so we can reissue it correctly.
+Nora: Good. Paul, how is the investor report?
+Paul: I need the final numbers first. I'll update the investor report by October 20th.
+Nora: Okay. I also want to review the full aging report myself before Friday, so before the 16th.
+Quinn: One more problem. For the audit, the documentation folder with contracts and invoices is incomplete, a lot is missing and honestly no one knows who is supposed to keep it up to date.
+Nora: That's worrying. We need to deal with that soon.
+Nora: Alright, thank you everyone.

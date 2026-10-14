@@ -1,0 +1,19 @@
+Meeting: Team Sync - Produkt und Tools
+Date: 2026-10-12 (Montag)
+Participants: Felix (Produkt), Aylin (Partnerships), Pavel (Engineering), Clara (Operations)
+
+Clara: Hi zusammen, let's keep it short today. Felix, wie weit ist die Kundenpräsentation?
+Felix: Fast fertig, es fehlen noch die Zahlen. Ich mach die Präsentation fertig bis Donnerstag.
+Clara: Perfekt. Aylin, der Partner wegen dem API-Zugang?
+Aylin: Genau, da warte ich auf eine Antwort. Ich checke das heute noch mit dem Partner und melde mich by end of day.
+Clara: Top. Pavel, Jira?
+Pavel: Das Board ist ein Chaos, ehrlich gesagt. Let me handle the Jira cleanup, das ist bis zum 20. fertig.
+Clara: Danke dir. Dann noch die Frage mit dem Chat-Tool, wir hatten ja überlegt, auf Teams zu wechseln.
+Felix: Ich fand Slack besser, ehrlich.
+Pavel: Same. Der Wechsel kostet nur Zeit.
+Clara: Okay, dann entscheiden wir: wir bleiben bei Slack, kein Wechsel zu Teams.
+Aylin: Gut so.
+Pavel: Ach, und das Onboarding-Dokument für neue Leute ist komplett veraltet, da steht noch der alte Prozess drin. Niemand fühlt sich dafür zuständig.
+Clara: Ja, stimmt. Hmm. Okay, lassen wir das erstmal.
+Felix: Und die Kaffeemaschine ist übrigens schon wieder kaputt, haha.
+Clara: Klassiker. Alright, das war's, danke euch!

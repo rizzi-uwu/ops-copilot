@@ -1,0 +1,266 @@
+{
+  "finance": {
+    "as_of": "2026-10-14",
+    "duplicates": [
+      [
+        "INV-2026-0119",
+        "INV-2026-0120"
+      ]
+    ],
+    "unallocated_matches": {
+      "PAY-0412": "INV-2026-0131",
+      "PAY-0430": "INV-2026-0160"
+    },
+    "aging_after_matching": {
+      "Nordlicht Logistics GmbH": {
+        "INV-2026-0101": "61+",
+        "INV-2026-0102": "31-60",
+        "INV-2026-0103": "1-30"
+      },
+      "Havel Print Works": {
+        "INV-2026-0140": "61+",
+        "INV-2026-0141": "61+",
+        "INV-2026-0142": "31-60"
+      },
+      "Alster Medical Supplies": {
+        "INV-2026-0150": "1-30"
+      },
+      "Kreuzberg Catering Co": {
+        "INV-2026-0119": "current",
+        "INV-2026-0120": "current"
+      }
+    },
+    "credit_note_needed": [
+      "INV-2026-0150"
+    ]
+  },
+  "meetings": {
+    "meeting_01_atlas_sync": {
+      "set": "basic",
+      "actions": 4,
+      "action_labels": [
+        {
+          "owner": "Ben",
+          "deadline": "2026-10-16"
+        },
+        {
+          "owner": "Chloe",
+          "deadline": "2026-10-07"
+        },
+        {
+          "owner": "Anna",
+          "deadline": "any"
+        },
+        {
+          "owner": "David",
+          "deadline": "any"
+        }
+      ],
+      "decisions": 1,
+      "risks": 1,
+      "finance_customers": [
+        "Nordlicht Logistics GmbH"
+      ]
+    },
+    "meeting_02_partner_summit": {
+      "set": "basic",
+      "actions": 4,
+      "action_labels": [
+        {
+          "owner": "Elena",
+          "deadline": "2026-10-12"
+        },
+        {
+          "owner": "Greta",
+          "deadline": "2026-10-09"
+        },
+        {
+          "owner": "Farid",
+          "deadline": "2026-10-14"
+        },
+        {
+          "owner": "Hannah",
+          "deadline": "any"
+        }
+      ],
+      "decisions": 1,
+      "risks": 1,
+      "finance_customers": [
+        "Kreuzberg Catering Co"
+      ]
+    },
+    "meeting_03_sprint_planning": {
+      "set": "basic",
+      "actions": 3,
+      "action_labels": [
+        {
+          "owner": "Jonas",
+          "deadline": "2026-10-14"
+        },
+        {
+          "owner": "Jonas",
+          "deadline": "2026-10-15"
+        },
+        {
+          "owner": "Kai",
+          "deadline": "2026-10-21"
+        }
+      ],
+      "decisions": 1,
+      "risks": 1,
+      "finance_customers": []
+    },
+    "meeting_04_tegel_client_call": {
+      "set": "basic",
+      "actions": 3,
+      "action_labels": [
+        {
+          "owner": "Lena",
+          "deadline": "2026-10-15"
+        },
+        {
+          "owner": "Lena",
+          "deadline": "any"
+        },
+        {
+          "owner": "Marco",
+          "deadline": "any"
+        }
+      ],
+      "decisions": 1,
+      "risks": 1,
+      "finance_customers": [
+        "Tegel Robotics AG"
+      ]
+    },
+    "meeting_05_month_end_finance": {
+      "set": "basic",
+      "actions": 4,
+      "action_labels": [
+        {
+          "owner": "Nora",
+          "deadline": "2026-10-16"
+        },
+        {
+          "owner": "Omar",
+          "deadline": "2026-10-14"
+        },
+        {
+          "owner": "Paul",
+          "deadline": "2026-10-20"
+        },
+        {
+          "owner": "Nora",
+          "deadline": "any"
+        }
+      ],
+      "decisions": 1,
+      "risks": 1,
+      "finance_customers": [
+        "Havel Print Works",
+        "Alster Medical Supplies"
+      ]
+    },
+    "meeting_06_messy_sync": {
+      "set": "hard",
+      "actions": 3,
+      "action_labels": [
+        {
+          "owner": "Tom",
+          "deadline": "2026-10-13"
+        },
+        {
+          "owner": "Petra",
+          "deadline": "2026-10-30"
+        },
+        {
+          "owner": "Mira",
+          "deadline": "2026-10-12"
+        }
+      ],
+      "decisions": 1,
+      "risks": 1,
+      "finance_customers": []
+    },
+    "meeting_07_vague_dates": {
+      "set": "hard",
+      "actions": 3,
+      "action_labels": [
+        {
+          "owner": "Lukas",
+          "deadline": "2026-10-23"
+        },
+        {
+          "owner": "Omid",
+          "deadline": "2026-10-15"
+        },
+        {
+          "owner": "Rachel",
+          "deadline": "any"
+        }
+      ],
+      "decisions": 1,
+      "risks": 1,
+      "finance_customers": []
+    },
+    "meeting_08_deutsch": {
+      "set": "hard",
+      "actions": 4,
+      "action_labels": [
+        {
+          "owner": "Stefan",
+          "deadline": "2026-10-16"
+        },
+        {
+          "owner": "Dilara",
+          "deadline": "2026-10-21"
+        },
+        {
+          "owner": "Max",
+          "deadline": "2026-10-21"
+        },
+        {
+          "owner": "Katja",
+          "deadline": "2026-10-15"
+        }
+      ],
+      "decisions": 1,
+      "risks": 1,
+      "finance_customers": []
+    },
+    "meeting_09_denglisch": {
+      "set": "hard",
+      "actions": 3,
+      "action_labels": [
+        {
+          "owner": "Felix",
+          "deadline": "2026-10-15"
+        },
+        {
+          "owner": "Aylin",
+          "deadline": "2026-10-12"
+        },
+        {
+          "owner": "Pavel",
+          "deadline": "2026-10-20"
+        }
+      ],
+      "decisions": 1,
+      "risks": 1,
+      "finance_customers": []
+    },
+    "meeting_10_discussion_only": {
+      "set": "hard",
+      "actions": 1,
+      "action_labels": [
+        {
+          "owner": "Sofia",
+          "deadline": "2026-10-16"
+        }
+      ],
+      "decisions": 0,
+      "risks": 1,
+      "finance_customers": []
+    }
+  }
+}

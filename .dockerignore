@@ -1,0 +1,11 @@
+.env
+.git
+.gitignore
+outbox
+**/__pycache__
+*.pyc
+*.tar.gz
+README.md
+Makefile
+docker-compose.yml
+.gitattributes
