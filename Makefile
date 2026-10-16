@@ -14,7 +14,7 @@ COMPOSE := docker compose
 RUN := $(COMPOSE) run --rm
 
 .DEFAULT_GOAL := help
-.PHONY: help setup dirs check-key need-args need-file build test run run-all evaluate approve-list approve reject push shell data clean clean-outbox
+.PHONY: help setup dirs check-key need-args need-file build test run run-all evaluate approve-list approve reject push jira shell data clean clean-outbox
 
 help: ## Show this help
 	@echo "Ops Copilot commands:"
@@ -64,10 +64,13 @@ approve: need-args dirs build ## Approve a draft: make approve SOURCE=<outbox na
 	$(RUN) approve
 
 reject: need-args dirs build ## Reject a draft: make reject SOURCE=<outbox name> N=<item number>
-	$(RUN) -e ACTION=reject approve
+	ACTION=reject $(RUN) approve
 
 push: need-file dirs build ## Push an outbox file to Notion: make push OUTBOX_FILE=outbox/<name>.json
 	$(RUN) push
+
+jira: need-file dirs build ## Push an outbox file to Jira: make jira OUTBOX_FILE=outbox/<name>.json [DRY=1]
+	JIRA_FLAGS=$(if $(DRY),--dry-run,) $(RUN) jira
 
 shell: dirs build ## Open a shell inside the container
 	$(RUN) shell
