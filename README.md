@@ -98,16 +98,16 @@ cat >> README.md <<'EOF'
 
 ---
 
+## Output
+
+The extracted items land in Notion and Jira (one row or issue per item, with owner, due date and labels):
+
+![Jira board with the extracted tasks](docs/Jira_board.png)
+
 <p align="center">
   <a href="https://app.notion.com/p/6084e5fea946457bb2018724cf52fc1b?v=13131d54207a47f5a3ce6b9c5d9edff3&source=copy_link">
     <img src="https://img.shields.io/badge/Notion-See%20the%20agent's%20output-000000?style=for-the-badge&logo=notion&logoColor=white" alt="See the agent's output on Notion">
   </a>
   <br>
-  <sub>Live example board. All data is invented.</sub>
+  <sub>Example board. All data is invented.</sub>
 </p>
-
----
-
-The same extracted items land in Jira (one issue per item, with owner, due date and labels):
-
-![Jira board with the extracted tasks](docs/Jira_board.png)
