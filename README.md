@@ -105,7 +105,9 @@ cat >> README.md <<'EOF'
   <br>
   <sub>Live example board. All data is invented.</sub>
 </p>
-EOF
-git add README.md
-git commit -m "Add Notion board button"
-git push
+
+---
+
+The same extracted items land in Jira (one issue per item, with owner, due date and labels):
+
+![Jira board with the extracted tasks](docs/Jira_board.png)
